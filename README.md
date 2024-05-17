@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+Gerador de QR Code 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bibliotecas:
+- qrcode": "^1.5.3",
+- react-qr-code": "^2.0.13"
 
-Currently, two official plugins are available:
+Tecnologias:
+- React
+- Vite
+- Tailwind
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gerador de QR Code criado em react utilizando as biblioteca qrcode e react-qr-code, usuário ao inserir a informação no input e clicando no botão "Gerar Qr Code" o qr code será gerado na tela, 
+usuário tem a possibilidade de clicar no botão "baixar o qr code" no qual é realizado download do arquivo para o seu computador ou clicar no botão "Limpar" para poder utilizar novamente.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Link para visualização do projeto: https://gerador-qrcode-8wdy1261y-alammartins-projects.vercel.app/
